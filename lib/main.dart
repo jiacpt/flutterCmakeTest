@@ -1,3 +1,6 @@
+/* import 'dart:ffi' as ffi;
+import 'package:win32/win32.dart' as w32;
+ */
 import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_sidemenu/easy_sidemenu.dart';
@@ -158,11 +161,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: [
                     Container(
                       color: Colors.white,
-                      child: const Center(
-                        child: Text(
-                          'Dashboard',
-                          style: TextStyle(fontSize: 35),
-                        ),
+                      child: ElevatedButton(
+                        onPressed: () {
+                          debugPrint("ddd");
+                        },
+                        child: const Text("OK"),
                       ),
                     ),
                     Container(
