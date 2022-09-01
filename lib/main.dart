@@ -4,6 +4,7 @@ import 'package:win32/win32.dart' as w32;
 import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_sidemenu/easy_sidemenu.dart';
+import 'dash_board.dart';
 
 void main() {
   runApp(const MyApp());
@@ -159,15 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: PageView(
                   controller: page,
                   children: [
-                    Container(
-                      color: Colors.white,
-                      child: ElevatedButton(
-                        onPressed: () {
-                          debugPrint("ddd");
-                        },
-                        child: const Text("OK"),
-                      ),
-                    ),
+                    const Dashboard(),
                     Container(
                       color: Colors.white,
                       child: const Center(

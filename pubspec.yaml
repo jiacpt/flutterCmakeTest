@@ -31,4 +31,4 @@ flutter:
 
   assets:
     - assets/animation/drop_water.json
-    - assets/windll/
+    - assets/windll/sysinfo.dll

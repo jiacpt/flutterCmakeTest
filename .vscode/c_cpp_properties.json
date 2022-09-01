@@ -4,18 +4,19 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "./windows/**"
+                "C:/Users/86134/Desktop/opencv-4.6.0_3/build/install/include/**",
+                "C:/Users/86134/Desktop/opencv-4.6.0_3/build/install/include/opencv2/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe",
-            "cStandard": "c17",
+            "compilerPath": "C:/Users/86134/Desktop/CENV/mingw64/bin/gcc.exe",
+            "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
